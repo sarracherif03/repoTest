@@ -19,8 +19,8 @@ export class DashboardPlacementComponent implements OnInit {
   /** test github*/ 
   varMalek=0
   varSarra=23
-
   /** Fin test github*/ 
+  
   typePlacement=""
   montantPlacementGlobal=0;
   nbrePlacementGlobal=0;
