@@ -1,0 +1,270 @@
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\appsettings.json
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.exe
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.deps.json
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.runtimeconfig.json
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.runtimeconfig.dev.json
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ref\BackendPlacement.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\BackendPlacement.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Humanizer.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.csproj.AssemblyReference.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.AssemblyInfoInputs.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.AssemblyInfo.cs
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.csproj.CoreCompileInputs.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\staticwebassets\BackendPlacement.StaticWebAssets.Manifest.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\staticwebassets\BackendPlacement.StaticWebAssets.xml
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\scopedcss\bundle\BackendPlacement.styles.css
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.RazorTargetAssemblyInfo.cache
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\ref\BackendPlacement.dll
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.pdb
+C:\Users\s.cherif\Documents\Demande de placement\BackendPlacement\BackendPlacement\obj\Debug\net5.0\BackendPlacement.genruntimeconfig.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\appsettings.json
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.StaticWebAssets.xml
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.exe
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.deps.json
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.runtimeconfig.json
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.runtimeconfig.dev.json
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ref\BackendPlacement.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\BackendPlacement.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Humanizer.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Composition.AttributedModel.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Composition.Convention.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Composition.Hosting.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Composition.Runtime.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Composition.TypedParts.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.csproj.AssemblyReference.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.AssemblyInfoInputs.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.AssemblyInfo.cs
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.csproj.CoreCompileInputs.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\scopedcss\bundle\BackendPlacement.styles.css
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\staticwebassets\BackendPlacement.StaticWebAssets.Manifest.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.RazorTargetAssemblyInfo.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.csproj.CopyComplete
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\ref\BackendPlacement.dll
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.pdb
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\obj\Debug\net5.0\BackendPlacement.genruntimeconfig.cache
+C:\Users\m.douik\OneDrive - Assurances El Amana Takaful\Documents\workspace\PlacementBackEnd\BackendPlacement\bin\Debug\net5.0\HtmlAgilityPack.dll

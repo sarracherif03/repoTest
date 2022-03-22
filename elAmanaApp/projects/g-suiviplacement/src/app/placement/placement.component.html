@@ -1,0 +1,547 @@
+<app-header></app-header>
+<div class="container-scroller">
+  <div class="container-fluid page-body-wrapper">
+    <app-navbar-placement></app-navbar-placement>
+    <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-md-12 grid-margin">
+              <div class="card-body">
+                <h1>Gestion des placements</h1>
+                  <!--search bar-->
+
+                  
+                 <div class="input-group">
+                  <div class="form-group">
+                    <form class="form-sample" #searchForm="ngForm" (submit)="search(searchForm)">
+                      <table class="rechercheav-div">
+
+                        <tr>
+                          <!--End Close Div-->
+                          <td>
+                            <!-- Search by Nom -->
+                            <div class="form-group">
+                                    <select class="form-control form-control-lg" [(ngModel)]="plaService.fromData.pla_id_type_action"  name="typePlacement" >
+                                      <option value= 0 disabled  selected> Rechercher par type placement</option>
+                                        <ng-container *ngFor="let item of typeActService.listaction">
+                                            <option value="{{ item.typ_act_id }}"> {{item.typ_act_libelle }} </option>
+                                        </ng-container>
+                                    </select>
+                            </div>
+                          </td>
+
+                          <td *ngIf="plaService.fromData.pla_id_type_action==6" style="margin-left: 16px;">
+                            <div class="form-group" style="margin-left: 16px;">
+                                <select class="form-control form-control-lg" [(ngModel)]="plaService.fromData.pla_action_cotee"  name="placementCote" >
+                                  <option value="1">  Cotée</option>
+                                  <option value="2"> Non cotée</option>
+                                </select>
+                              </div>
+                          </td>
+                          <td>
+                            <div class="form-group">
+                              <button class="btn btn-sm btn-facebook search-button">
+                                <i class="icon-search"></i>
+                              </button>
+                            </div>
+                          </td>
+                        </tr>
+                       </table>
+                      </form>
+
+                    <!--
+                    <div class="input-group">
+                      <div class="input-group-prepend show">
+                        <button
+                          class="btn btn-sm btn-outline-primary dropdown-toggle"
+                          type="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          (click)="ShowDiv('showFilterDiv')"
+                          aria-expanded="true">
+                          <i class="bi bi-filter"></i> Filtre
+                        </button>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control"
+                        (keyup)="applyFilter($event)"
+                        placeholder="Recherche ..."
+                        style="margin-right: 5px"
+                        list="exampleList"
+                      />
+                    </div>
+                    -->
+                  </div>
+                  <ng-container>
+                    <!--Add button-->
+                    <button *ngIf="this.authService.listauthorizedFunctions[0]"
+                      type="button"
+                      class="btn btn-icon-text button-add"
+                      (click)="onCreate()">
+                      <i class="bi bi-cash-coin"></i>
+                      Ajouter Placement
+                    </button>
+                  </ng-container>
+                  </div>
+
+            <!--Div Filter-->
+            <!--
+            <div class="search-filter" *ngIf="filterDiv == 'showFilterDiv'">
+              <form class="form-sample" #searchForm="ngForm" (submit)="search(searchForm)">
+                <table class="rechercheav-div">
+                  <tr>
+                    <td>
+                      <button type="button" class="close" aria-label="Close" (click)="ShowDiv('hiddenFilterDiv')">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label><small>Type placement</small></label>
+                      <div class="form-group">
+                              <select class="form-control form-control-lg" [(ngModel)]="plaService.fromData.pla_id_type_action"  name="typePlacement" >
+                                <option value="" > </option>
+                                  <ng-container *ngFor="let item of typeActService.listaction">
+                                      <option value="{{ item.typ_act_id }}"> {{item.typ_act_libelle }} </option>
+                                  </ng-container>
+                              </select>
+                      </div>
+                    </td>
+                    
+                    <td *ngIf="plaService.fromData.pla_id_type_action==6">
+                      <label><small>Type d'action</small></label>
+                      <div class="form-group">
+                          <select class="form-control form-control-lg" [(ngModel)]="plaService.fromData.pla_action_cotee"  name="placementCote" >
+                            <option value="1">  Cotée</option>
+                            <option value="2"> Non cotée</option>
+                          </select>
+                        </div>
+                    </td>
+
+                    <td>
+                    </td>
+
+                    <td>
+                      <div class="form-group">
+                        <button class="btn btn-sm btn-facebook search-button">
+                          <i class="icon-search"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                 </table> 
+                </form>
+              </div>
+            -->
+
+                  <!--Display -->
+                 
+                  <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+
+                        <div class="card-body">
+                
+                            <table class="table-responsive" id="excel-table">
+                              <button class="btn btn-icon button-add" style="width: 43px;height: 38px;margin-left: 1358px;background-color: #009162;"(click)="importAsXlsx()"type="submit" ><i class="bi bi-download"></i>
+                              </button>
+    
+        
+                                <!--Table-->
+
+                                <!-- Affichage Placements ---------------------------------------------------------------------------->
+                                <!-- Tableau 1: Dans les cas : contrat Moudharaba / Titres Participatifs / Contrat Isthmar ... ------->
+                                <ng-container *ngIf="showTable=='affiche1'">
+                                
+                                <mat-table matTableExporter #exporter="matTableExporter" [dataSource]="dataSource" matSort
+                                    (matSortChange)="announceSortChange($event)"
+                                    class="table table-striped">
+                                    
+                                        <!-- Tableau1 : Institution Financière-->
+                                        <ng-container matColumnDef="pla_organisme_societe">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Institution Financière
+                                            </mat-header-cell>
+                                            
+                                            <mat-cell *matCellDef="let element" data-label="Institution Financière">
+                                              <ng-container *ngFor="let i of this.orgService.listorganisme">
+                                                    <ng-container *ngIf=" i.org_id == element.pla_organisme_societe">
+                                                        {{i.org_libelle}} 
+                                                </ng-container>
+                                              </ng-container>
+                                              </mat-cell>
+
+                                              <mat-footer-cell *matFooterCellDef> <b>Total </b> </mat-footer-cell>
+                                        </ng-container>
+
+                                        <!-- Tableau1 : Montant Dépot -->
+                                        <ng-container matColumnDef="pla_montant_depot">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Montant Dépot
+                                              </mat-header-cell>
+                                              <mat-cell *matCellDef="let element" data-label="Montant Dépot">
+                                                  {{element.pla_montant_depot | number:'1.3-3' }}
+                                              </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                        </ng-container>
+
+                                        <!-- Tableau1 : Taux Profit -->
+                                        <ng-container matColumnDef="pla_taux_profit">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Taux Profit
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label="Taux Profit"> {{element.pla_taux_profit}}
+                                            </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                        </ng-container>
+
+                                        <!-- Tableau1 : Date Souscription -->
+                                        <ng-container matColumnDef="pla_date_souscription">
+                                          <mat-header-cell *matHeaderCellDef mat-sort-header> Date Souscription
+                                          </mat-header-cell>
+                                          <mat-cell *matCellDef="let element" class="table-cell"
+                                              data-label="Date Souscription"> {{element.pla_date_souscription | date: "dd/MM/yyyy" }}
+                                          </mat-cell>
+
+                                          <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                      </ng-container>
+
+                                      <!-- Tableau1 : Date d'échance -->
+                                        <ng-container matColumnDef="pla_date_echeance">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Date d'échance
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element" class="table-cell"
+                                                data-label="Date d'échance"> {{element.pla_date_echeance | date: "dd/MM/yyyy" }}
+                                            </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                        </ng-container>
+
+                                        <!-- Tableau1 :  Durée -->
+                                        <ng-container matColumnDef="pla_duree">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Durée (année)
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label=" Durée"> {{element.pla_duree}}
+                                            </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                        </ng-container>
+
+                                        <!-- Tableau1 : P.P.C à la date du jour -->
+                                        <ng-container matColumnDef="pla_produits_placement_consommes_date_jour">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> P.P.C à la date du jour
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label="Produit de Placement consommées à la date du jour (fin du mois correspondant)"> 
+                                                {{element.pla_produits_placement_consommes_date_jour   | number:'1.3-3'   }}
+                                            </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef> {{this.sommepla_produits_placement_consommes_date_jour  | number:'1.3-3'}} </mat-footer-cell>
+                                        </ng-container> 
+
+                                        <!-- Tableau1 :  P.P à la fin du trimestre comptable -->
+                                        <ng-container matColumnDef="pla_produits_placement_consommes_trimestre_comptable">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> P.P à la fin du trimestre comptable
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label="Produit de Placement à la fin du trimestre comptable"> {{element.pla_produits_placement_consommes_trimestre_comptable | number:'1.3-3' }}
+                                            </mat-cell>
+                                            <mat-footer-cell *matFooterCellDef> {{this.sommepla_produits_placement_consommes_trimestre_comptable  | number:'1.3-3' }} </mat-footer-cell>
+                                        </ng-container>  
+                                      
+                                        <!-- Tableau1 : P.P à la fin de l'année comptable -->
+                                        <ng-container matColumnDef="pla_produits_placement_consommes_annee_comptable">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> P.P à la fin de l'année comptable
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label="Produit de placement à la fin de l'année comptable"> {{element.pla_produits_placement_consommes_annee_comptable | number:'1.3-3'}}
+                                            </mat-cell>
+
+                                            <mat-footer-cell *matFooterCellDef> {{ this.sommepla_produits_placement_consommes_annee_comptable  | number:'1.3-3' }} </mat-footer-cell>
+                                        </ng-container> 
+                                        
+                                        <!-- Tableau1 : Taux de la retenue de garantie -->
+                                        <ng-container matColumnDef="pla_taux_retenue">
+                                            <mat-header-cell *matHeaderCellDef mat-sort-header> Taux de la retenue de garantie
+                                            </mat-header-cell>
+                                            <mat-cell *matCellDef="let element"
+                                                data-label="Taux de la retenue de garantie"> {{element.pla_taux_retenue}}
+                                            </mat-cell>
+                                            <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                        </ng-container> 
+                                
+                                      <!-- Tableau1 : Taux Moudharba -->
+                                      <ng-container matColumnDef="taux_moudharba">
+                                          <mat-header-cell *matHeaderCellDef mat-sort-header> Taux Moudharba
+                                          </mat-header-cell>
+                                          <mat-cell *matCellDef="let element"
+                                              data-label="Taux Moudharba"> {{element.taux_moudharba}}
+                                          </mat-cell>
+                                          <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                    </ng-container>
+                         
+
+                                    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                                    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                                    <mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></mat-footer-row>
+                                </mat-table>
+                              </ng-container> 
+
+                            <!-- Tableau 2 : Dans le cas Action cotées -------------------------------------------------------------------------------> 
+                              <ng-container *ngIf="showTable=='affiche2'">
+                               
+                                <mat-table [dataSource]="dataSource" matSort
+                                (matSortChange)="announceSortChange($event)" class="table table-striped">
+                                   
+                                <!-- Tableau2 : Societe -->
+                                <ng-container matColumnDef="pla_societe">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Société
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Société"> {{element.pla_societe}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef> <b> Total </b> </mat-footer-cell>
+                                </ng-container>
+
+                                <!-- Tableau2 : Nombre d'action -->
+                                <ng-container matColumnDef="pla_nbr_action">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Nombre d'action
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Nombre d'action"> {{element.pla_nbr_action}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container> 
+
+                                <!-- Tableau2 :Prix d'achat -->
+                                <ng-container matColumnDef="pla_prix_achat">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Prix d'achat
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Prix d'achat"> {{element.pla_prix_achat}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container> 
+                                    
+                                <!-- Tableau2 : Montant -->
+                                <ng-container matColumnDef="pla_montant_depot">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Montant 
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Montant"> {{element.pla_montant_depot | number:'1.3-3' }}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container>   
+                                
+                                 <!-- Tableau2 :  Date d'achat -->
+                                <ng-container matColumnDef="pla_date_souscription">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Date d'achat
+                                  </mat-header-cell>
+                                  <mat-cell  *matCellDef="let element"
+                                      data-label="Date d'achat"> {{element.pla_date_souscription | date: "dd/MM/yyyy" }}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container>   
+
+                                <!-- Tableau2 :  Prix du jour -->
+                                <ng-container matColumnDef="pla_prix_jour">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Prix du jour
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Prix du jour"> {{element.pla_prix_jour}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container>
+                              
+                                <!-- Tableau2 :  Montant actualisé -->
+                                <ng-container matColumnDef="pla_montant_actualise">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> Montant actualisé
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="Montant actualisé"> {{element.pla_montant_actualise}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                                </ng-container>    
+
+                                <!-- Tableau2 :  +/-Value consommés à la date du jour -->
+                                <ng-container matColumnDef="pla_value_consome_date_jour">
+                                  <mat-header-cell *matHeaderCellDef mat-sort-header> +/-Value consommés à la date du jour
+                                  </mat-header-cell>
+                                  <mat-cell *matCellDef="let element"
+                                      data-label="+/-Value consommés à la date du jour"> {{element.pla_value_consome_date_jour}}
+                                  </mat-cell>
+                                  <mat-footer-cell *matFooterCellDef> {{ this.sommepla_value_consome_date_jour }}  </mat-footer-cell>
+                                </ng-container>
+
+                                <!-- Tableau2 :  +/- Value à la fin du trimestre comptable -->
+                                  <ng-container matColumnDef="pla_value_consome_trimestre_comptable">
+                                    <mat-header-cell *matHeaderCellDef mat-sort-header> +/- Value à la fin du trimestre comptable
+                                    </mat-header-cell>
+                                    <mat-cell *matCellDef="let element"
+                                        data-label="+/- Value à la fin du trimestre comptable"> {{element.pla_value_consome_trimestre_comptable}}
+                                    </mat-cell>
+                                    <mat-footer-cell *matFooterCellDef> {{ this.sommepla_value_consome_trimestre_comptable }} </mat-footer-cell>
+                                  </ng-container>
+
+                                  <!-- Tableau2 :  +/- Value à la fin de l'année comptable -->
+                                  <ng-container matColumnDef="pla_value_consome_annee_comptable">
+                                    <mat-header-cell *matHeaderCellDef mat-sort-header> +/- Value à la fin de l'année comptable
+                                    </mat-header-cell>
+                                    <mat-cell *matCellDef="let element"
+                                        data-label="+/- Value à la fin de l'année comptable"> {{element.pla_value_consome_annee_comptable}}
+                                    </mat-cell>
+                                    <mat-footer-cell *matFooterCellDef> {{this.sommepla_value_consome_annee_comptable}} </mat-footer-cell>
+                                  </ng-container>
+
+                                  
+                                  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                                  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                                  <mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></mat-footer-row>
+                                </mat-table>
+                              </ng-container>
+
+                            <!-- Tableau 3 : Dans le cas Action non cotées -------------------------------------------------------------------------------> 
+                            <ng-container *ngIf="showTable=='affiche3'">
+
+                              <mat-table [dataSource]="dataSource" matSort
+                              (matSortChange)="announceSortChange($event)" class="table table-striped">
+                                 
+                              <!-- Tableau3 : Societe -->
+                              <ng-container matColumnDef="pla_societe">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Société
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Société"> {{element.pla_societe}}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef> Totale </mat-footer-cell>
+                              </ng-container>
+
+                              <!-- Tableau3 : Nombre d'action -->
+                              <ng-container matColumnDef="pla_nbr_action">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Nombre d'action
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Nombre d'action"> {{element.pla_nbr_action}}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container> 
+
+                              <!-- Tableau3 :Prix d'achat -->
+                              <ng-container matColumnDef="pla_prix_achat">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Prix d'achat
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Prix d'achat"> {{element.pla_prix_achat}}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container> 
+                                  
+                              <!-- Tableau3 : Montant -->
+                              <ng-container matColumnDef="pla_montant_depot">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Montant 
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Montant"> {{element.pla_montant_depot}}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container>   
+                              
+                               <!-- Tableau3 :  Date d'achat -->
+                              <ng-container matColumnDef="pla_date_souscription">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Date d'achat
+                                </mat-header-cell>
+                                <mat-cell  *matCellDef="let element"
+                                    data-label="Date d'achat"> {{element.pla_date_souscription | date: "dd/MM/yyyy" }}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container>   
+
+                              <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                              <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                              <mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></mat-footer-row>
+                            </mat-table>
+                            </ng-container>
+
+                           <!-- Tableau 4 : Dans le cas d'un placement FCPR -------------------------------------------------------------------------------> 
+
+                            <ng-container *ngIf="showTable=='affiche4'">
+                            
+                                <mat-table [dataSource]="dataSource" matSort
+                                (matSortChange)="announceSortChange($event)" class="table table-striped"> 
+                                
+                              <!-- Tableau4 : Montant -->
+                              <ng-container matColumnDef="pla_montant_depot">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Montant
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Montant"> {{element.pla_montant_depot | number:'1.3-3' }}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef> <b>Total </b></mat-footer-cell>
+                              </ng-container>
+
+                              <!-- Tableau4 : Date d'acquisition -->
+                              <ng-container matColumnDef="pla_date_souscription">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Date d'acquisition
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Date d'acquisition"> {{element.pla_date_souscription | date: "dd/MM/yyyy" }}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container>
+
+                              <!-- Tableau4 : Valeur Liquidative -->
+                              <ng-container matColumnDef="pla_Vliqui">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> Valeur Liquidative
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="Valeur Liquidative"> {{element.pla_Vliqui}}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef>  </mat-footer-cell>
+                              </ng-container>
+
+
+                              <!-- Tableau4 : +/- Value à la fin de l'année comptable -->
+                              <ng-container matColumnDef="pla_value_consome_annee_comptable">
+                                <mat-header-cell *matHeaderCellDef mat-sort-header> +/- Value à la fin de l'année comptable
+                                </mat-header-cell>
+                                <mat-cell *matCellDef="let element"
+                                    data-label="+/- Value à la fin de l'année comptable"> {{element.pla_value_consome_annee_comptable | number:'1.3-3' }}
+                                </mat-cell>
+                                <mat-footer-cell *matFooterCellDef> {{this.sommepla_value_consome_annee_comptable | number:'1.3-3' }} </mat-footer-cell>
+                              </ng-container>
+                              
+                              <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+                              <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+                              <mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></mat-footer-row>
+                            </mat-table>
+
+                            </ng-container>
+
+
+
+                            </table>
+
+                            <mat-paginator [length]="100" [pageSize]="10"
+                                [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page">
+                            </mat-paginator>
+                           
+
+
+                            <!--End Table-->
+                        </div>
+                    </div>
+                </div>
+
+                
+              </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    </div>
+</div>
+<app-footer></app-footer>
